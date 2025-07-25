@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Urbanist:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffefc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 200px; /* Adjust the size as needed */
+}
+
+/* Button Styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff7a33;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:black;
+    color: white;
+}
+
+
+
+    </style>
+
+    <title>Shuddh - Milk Purity Tester</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="static/milk_purity_logo.png" alt="Shuddh Logo" class="logo">
+        </header>
+        <main>
+            <h1 style="font-family: 'Architects Daughter', cursive; text-align:center; font-size:60px;"> Shuddh </h1>
+            <p style="font-family: 'Urbanist', sans-serif; text-align:center; font-size:30px;"> An Arduino Based AI Milk Purity Project </p>
+<br><br>
+            <div class="buttons">
+                <button id="startBtn"><a href="/shuddh/testing" style="text-decoration:none; color:white">Start Testing</a></button>
+                <button id="aboutBtn"><a href="testing.html" style="text-decoration:none; color:white">About Project</a></button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
